@@ -1,4 +1,4 @@
-# 📝 Funky Multi-Section To-Do List
+# 📝 Multi-Section To-Do List
 
 A cute, multi-section to-do list web app with a modern, playful design. Organize your tasks by priority and enjoy a smooth, interactive experience!
 
@@ -31,12 +31,6 @@ A cute, multi-section to-do list web app with a modern, playful design. Organize
 
 - **Section-Scoped Input:**  
   Tasks are added only to the section where you type.
-
-- **Scrollable Lists:**  
-  Only the task list scrolls if there are many tasks; the section stays fixed.
-
-- **Funky & Cute Design:**  
-  Uses playful fonts, pastel colors, and asymmetric cards for a fun vibe.
 
 ## How It Works
 
