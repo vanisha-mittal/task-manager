@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <script src="jQuery.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>MY TO-DO LIST</h1>
+    <div class="todo-container">
+    <div class="container must-do">
+        <h2>MUST DO</h2>
+        <div class="task-input">
+            <input type="text" placeholder="What is your next task?" id="task-input">
+            <button onclick="addTask()" class="add-task-button">+</button>
+        </div>
+        <div id="warning-message" class="warning"></div>
+        <ul class="task-list" class="task-list">
+        </ul>
+    </div>
+    <div class="container should-do">
+        <h2>SHOULD DO</h2>
+        <div class="task-input">
+            <input type="text" placeholder="What is your next task?" id="task-input">
+            <button onclick="addTask()" class="add-task-button">+</button>
+        </div>
+        <div id="warning-message" class="warning"></div>
+        <ul class="task-list" class="task-list">
+        </ul>
+    </div>
+    <div class="container could-do">
+        <h2>COULD DO</h2>
+        <div class="task-input">
+            <input type="text" placeholder="What is your next task?" id="task-input">
+            <button onclick="addTask()" class="add-task-button">+</button>
+        </div>
+        <div id="warning-message" class="warning"></div>
+        <ul class="task-list" class="task-list">
+        </ul>
+    </div>
+    <div class="container if-time">
+        <h2>IF I HAVE TIME</h2>
+        <div class="task-input">
+            <input type="text" placeholder="What is your next task?" id="task-input">
+            <button onclick="addTask()" class="add-task-button">+</button>
+        </div>
+        <div id="warning-message" class="warning"></div>
+        <ul class="task-list" class="task-list">
+        </ul>
+    </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
